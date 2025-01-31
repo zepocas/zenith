@@ -1,0 +1,130 @@
+{
+    "author": "Zé Poças",
+    "name": "Zenith",
+    "dark": true,
+
+    "colors": {
+        "base02": "#1c1e20",
+        "base01": "#252729",
+        "base00": "#323436",
+        "inactivebg": "#48494d",
+        "base0": "#dddddd",
+        "base1": "#e9e9e9",
+        "base2": "#f6f6f6",
+        "base3": "#ffffff",
+        "blue": "#6190d5",
+        "none": "#00000000",
+        "red": "#ce352e",
+        "green": "#98971a",
+        "yellow": "#d79921",
+        "magenta": "#b16286",
+        "gruvboxblue": "#5d8cab",
+        "cyan": "#689d6a",
+        "gray": "#928374",
+        "darkGray": "#7c6f64",
+        "lightGray": "#a89984",
+        "orange": "#d65d0e",
+        "violet": "#b16286"
+    },
+
+
+    "ui": {
+        "*": {
+            "background": "base02",
+            "borderColor": "base03",
+            "disabledBackground": "base01",
+            "disabledBorderColor": "base03",
+            "inactiveBackground": "inactivebg",
+            "lightSelectionBackground": "base00",
+            "lightSelectionInactiveBackground": "base01",
+            "lineSeparatorColor": "base03",
+            "selectionBackground": "gruvboxblue",
+            "selectionInactiveBackground": "base00",
+            "separatorColor": "base03",
+            "separatorForeground": "base0",
+            "underlineColor": "gruvboxblue",
+            "underlineHeight": 2
+        },
+        "Borders": {
+            "color": "base03",
+            "ContrastBorderColor": "base03"
+        },
+        "Button": {
+            "arc": 8,
+            "default": {
+                "endBackground": "blue",
+                "endBorderColor": "00000000",
+                "focusedBorderColor": "blue",
+                "startBackground": "blue",
+                "startBorderColor": "00000000"
+            },
+            "endBackground": "base00",
+            "endBorderColor": "base00",
+            "focusedBorderColor": "blue",
+            "shadowColor": "00000000",
+            "startBackground": "base00",
+            "startBorderColor": "base00"
+        },
+        "CompletionPopup": {
+            "selectionBackground": "base00"
+        },
+        "DefaultTabs": {
+            "background": "base01",
+            "hoverBackground": "base03",
+            "underlineColor": "blue",
+            "underlinedTabBackground": "base01",
+            "underlineHeight": 2
+        },
+        "EditorTabs": {
+            "background": "base01",
+            "inactiveMaskColor": "base01",
+            "inactiveUnderlineColor": "base01",
+            "underlinedTabBackground": "base02",
+            "underlineColor": "blue",
+            "underlineHeight": 2
+        },
+        "FileColor": {
+            "Yellow": "00000000"
+        },
+        "Popup": {
+            "background": "base01",
+            "Header": {
+                "activeBackground": "base00",
+                "inactiveBackground": "base00"
+            }
+        },
+        "SearchEverywhere": {
+            "Tab": {
+                "selectedBackground": "base00"
+            }
+        },
+        "SidePanel": {
+            "background": "base01"
+        },
+        "StatusBar": {
+            "borderColor": "base03",
+            "hoverBackground": "base03"
+        },
+        "TabbedPane": {
+            "hoverColor": "base01"
+        },
+        "Table": {
+            "stripeColor": "base01"
+        },
+        "ToolWindow": {
+            "Header": {
+                "background": "base01",
+                "borderColor": "base03",
+                "inactiveBackground": "base01"
+            },
+            "Button": {
+                "hoverBackground": "base03",
+                "selectedBackground": "base03"
+            }
+        },
+        "Tree": {
+            "background": "base01",
+            "rowHeight": 20
+        }
+    }
+}

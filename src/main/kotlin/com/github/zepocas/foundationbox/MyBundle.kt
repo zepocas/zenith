@@ -1,4 +1,4 @@
-package com.github.zepocas.foundationbox
+package com.github.zepocas.zenith
 
 import com.intellij.DynamicBundle
 import org.jetbrains.annotations.NonNls

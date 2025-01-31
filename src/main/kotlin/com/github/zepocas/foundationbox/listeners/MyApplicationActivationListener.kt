@@ -1,4 +1,4 @@
-package com.github.zepocas.foundationbox.listeners
+package com.github.zepocas.zenith.listeners
 
 import com.intellij.openapi.application.ApplicationActivationListener
 import com.intellij.openapi.diagnostic.thisLogger

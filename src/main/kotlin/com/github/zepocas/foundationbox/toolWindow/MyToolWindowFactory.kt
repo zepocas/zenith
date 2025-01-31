@@ -1,4 +1,4 @@
-package com.github.zepocas.foundationbox.toolWindow
+package com.github.zepocas.zenith.toolWindow
 
 import com.intellij.openapi.components.service
 import com.intellij.openapi.diagnostic.thisLogger
@@ -8,8 +8,8 @@ import com.intellij.openapi.wm.ToolWindowFactory
 import com.intellij.ui.components.JBLabel
 import com.intellij.ui.components.JBPanel
 import com.intellij.ui.content.ContentFactory
-import com.github.zepocas.foundationbox.MyBundle
-import com.github.zepocas.foundationbox.services.MyProjectService
+import com.github.zepocas.zenith.MyBundle
+import com.github.zepocas.zenith.services.MyProjectService
 import javax.swing.JButton
 
 

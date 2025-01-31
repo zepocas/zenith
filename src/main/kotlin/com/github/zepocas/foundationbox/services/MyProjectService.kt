@@ -1,9 +1,9 @@
-package com.github.zepocas.foundationbox.services
+package com.github.zepocas.zenith.services
 
 import com.intellij.openapi.components.Service
 import com.intellij.openapi.diagnostic.thisLogger
 import com.intellij.openapi.project.Project
-import com.github.zepocas.foundationbox.MyBundle
+import com.github.zepocas.zenith.MyBundle
 
 @Service(Service.Level.PROJECT)
 class MyProjectService(project: Project) {
