@@ -126,6 +126,7 @@ kover {
 }
 
 tasks {
+
     wrapper {
         gradleVersion = providers.gradleProperty("gradleVersion").get()
     }
@@ -135,18 +136,24 @@ tasks {
     }
 }
 
+tasks.withType<Jar> {
+    duplicatesStrategy = DuplicatesStrategy.INCLUDE
+}
+
 intellijPlatformTesting {
     runIde {
         register("runIdeForUiTests") {
             task {
-                jvmArgumentProviders += CommandLineArgumentProvider {
-                    listOf(
-                        "-Drobot-server.port=8082",
-                        "-Dide.mac.message.dialogs.as.sheets=false",
-                        "-Djb.privacy.policy.text=<!--999.999-->",
-                        "-Djb.consents.confirmation.enabled=false",
-                    )
-                }
+                // The direct systemProperties approach is more reliable for the test IDE
+                systemProperties["robot-server.port"] = "8082"
+                systemProperties["ide.mac.message.dialogs.as.sheets"] = "false"
+                systemProperties["jb.privacy.policy.text"] = "<!--999.999-->"
+                systemProperties["jb.consents.confirmation.enabled"] = "false"
+                systemProperties["idea.ui.experimentsState"] = "newUi=true"
+                systemProperties["idea.is.internal"] = "true"
+                systemProperties["idea.ui.compact.labels.mode"] = "true"
+                systemProperties["idea.laf.name"] = "Zenith"
+                systemProperties["ide.project.view.toolbar.color.enabled"] = "false"
             }
 
             plugins {
