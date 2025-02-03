@@ -31,7 +31,6 @@
         <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="f78c6c" />
         <option name="FILESTATUS_MERGED" value="82aaff" />
         <option name="FILESTATUS_MODIFIED" value="80cbc4" />
-        <option name="FILESTATUS_NOT_CHANGED" value="dfdfdf" />
         <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="80cbc4" />
         <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="80cbc4" />
         <option name="FILESTATUS_OBSOLETE" value="ffcb6b" />
@@ -1937,7 +1936,7 @@
         <option name="TEXT">
             <value>
                 <option name="FOREGROUND" value="e8deb8" />
-                <option name="BACKGROUND" value="1a1a1c" />
+                <option name="BACKGROUND" value="191919" />
             </value>
         </option>
         <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">

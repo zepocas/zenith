@@ -1,4 +1,4 @@
-# zenith
+# Zenith
 
 ![Build](https://github.com/zepocas/zenith/workflows/Build/badge.svg)
 [![Version](https://img.shields.io/jetbrains/plugin/v/MARKETPLACE_ID.svg)](https://plugins.jetbrains.com/plugin/MARKETPLACE_ID)
@@ -17,18 +17,20 @@
 - [ ] Click the <kbd>Watch</kbd> button on the top of the [IntelliJ Platform Plugin Template][template] to be notified about releases containing new features and fixes.
 
 <!-- Plugin description -->
-This Fancy IntelliJ Platform Plugin is going to be your implementation of the brilliant ideas that you have.
+## The cleanest theme for JetBrains IDEs.
+Based on Subtheme's Monokai Pro, a bit more streamlined with a code color scheme inspired by Gruvbox.
 
-This specific section is a source for the [plugin.xml](/src/main/resources/META-INF/plugin.xml) file which will be extracted by the [Gradle](/build.gradle.kts) during the build process.
-
-To keep everything working, do not remove `<!-- ... -->` sections. 
+### Tips:
+- Settings: Turn off `Show tree indent guides` and `Use project colors in main toolbar`, turn on `Use smaller indents in trees`
+- You can use `File Status Color > Up to date` to change the foreground text color the the Project tool window.
+- If you are on a low resolution screen, turn off gutter icons in the `Editor > General > Gutter Icons` settings.
 <!-- Plugin description end -->
 
 ## Installation
 
 - Using the IDE built-in plugin system:
   
-  <kbd>Settings/Preferences</kbd> > <kbd>Plugins</kbd> > <kbd>Marketplace</kbd> > <kbd>Search for "zenith"</kbd> >
+  <kbd>Settings/Preferences</kbd> > <kbd>Plugins</kbd> > <kbd>Marketplace</kbd> > <kbd>Search for "Zenith"</kbd> >
   <kbd>Install</kbd>
   
 - Using JetBrains Marketplace:
