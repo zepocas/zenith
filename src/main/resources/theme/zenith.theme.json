@@ -9,8 +9,9 @@
         "base1": "#191919",
         "base2": "#222222",
         "base80": "#2b2b2b",
-        "base9": "#454545",
         "base3": "#363537",
+        "base9": "#454545",
+        "base35": "#4f4f4f",
         "base4": "#525053",
         "base5": "#69676c",
         "base6": "#8b888f",
@@ -20,6 +21,7 @@
         "selectedForeground": "#e8e8e8",
         "white": "#eeeeee",
         "red": "#fc618d",
+        "fadedRed": "#914e59",
         "darkRed": "#E8706A",
         "orange": "#C29858",
         "beige": "#E2BA89",
@@ -29,6 +31,7 @@
         "vividGreen": "#6e9f4d",
         "darkGreen": "#202C20",
         "mint": "#94EAA7",
+        "lightMint": "#8fc59b",
         "lightBlue": "#9ED3D5",
         "blue": "#5ad4e6",
         "lightPurple": "#AFAFFF",
@@ -38,14 +41,14 @@
 
     "ui": {
         "*": {
-            "acceleratorSelectionForeground": "darkBeige",
+            "acceleratorSelectionForeground": "lightBlue",
             "background": "base2",
             "borderColor": "base2",
             "disabledBackground": "base1",
             "disabledForeground": "base4",
             "disabledText": "base4",
             "focusColor": "base4",
-            "focusedBorderColor": "darkBeige",
+            "focusedBorderColor": "lightBlue",
             "foreground": "base8",
             "inactiveBackground": "base1",
             "inactiveForeground": "base6",
@@ -73,8 +76,8 @@
             "default": {
                 "endBackground": "base3",
                 "endBorderColor": "base3",
-                "foreground": "darkBeige",
-                "focusColor": "yellow",
+                "foreground": "lightBlue",
+                "focusColor": "lightBlue",
                 "focusedBorderColor": "base3",
                 "shadowColor": "base3",
                 "startBackground": "base3",
@@ -95,7 +98,7 @@
             "background": "base2",
             "disabledText": "base4",
             "foreground": "base8",
-            "select": "darkBeige"
+            "select": "lightBlue"
         },
         "CheckBoxMenuItem": {
             "acceleratorForeground": "base6",
@@ -126,7 +129,7 @@
             "disabledBackground": "base1",
             "disabledForeground": "base4",
             "foreground": "base8",
-            "modifiedItemForeground": "darkBeige",
+            "modifiedItemForeground": "lightBlue",
             "nonEditableBackground": "base80",
             "selectionBackground": "base9",
             "selectionForeground": "selectedForeground"
@@ -136,7 +139,7 @@
         },
         "CompletionPopup": {
             "foreground": "base8",
-            "matchForeground": "darkBeige",
+            "matchForeground": "lightBlue",
             "selectionInactiveBackground": "base4",
             "selectionBackground": "base9"
         },
@@ -144,14 +147,14 @@
             "arc": 4,
             "borderColor": "base80",
             "disabledBorderColor": "base80",
-            "focusColor": "darkBeige",
-            "focusedBorderColor": "darkBeige",
-            "hoverIconColor": "darkBeige",
+            "focusColor": "lightBlue",
+            "focusedBorderColor": "lightBlue",
+            "hoverIconColor": "lightBlue",
             "infoForeground": "base6",
             "iconColor": "base8"
         },
         "Counter": {
-            "background": "darkBeige",
+            "background": "lightBlue",
             "foreground": "base0"
         },
         "Debugger": {
@@ -175,8 +178,8 @@
             "background": "base2",
             "borderColor": "base2",
             "hoverBackground": "base80",
-            "inactiveUnderlineColor": "darkBeige",
-            "underlineColor": "darkBeige",
+            "inactiveUnderlineColor": "lightBlue",
+            "underlineColor": "lightBlue",
             "underlinedTabBackground": "base2",
             "underlineHeight": 2
         },
@@ -192,7 +195,7 @@
         },
         "EditorPane": {
             "background": "base1",
-            "caretForeground": "darkBeige",
+            "caretForeground": "lightBlue",
             "foreground": "base8",
             "inactiveBackground": "base2",
             "inactiveForeground": "base4",
@@ -201,9 +204,9 @@
         },
         "EditorTabs": {
             "borderColor": "base2",
-            "inactiveUnderlineColor": "darkBeige",
-            "underlineColor": "darkBeige",
-            "underlinedTabBackground": "base80",
+            "underlineColor": "base3",
+            "inactiveUnderlineColor": "base3",
+            "underlinedTabBackground": "base3",
             "underlinedTabForeground": "selectedForeground"
         },
         "FileColor": {
@@ -211,7 +214,7 @@
         },
         "FormattedTextField": {
             "background": "base80",
-            "caretForeground": "mint",
+            "caretForeground": "lightBlue",
             "foreground": "base8",
             "inactiveBackground": "base3",
             "inactiveForeground": "base4",
@@ -244,12 +247,12 @@
             "disabledText": "base4",
             "foreground": "base6",
             "infoForeground": "base6",
-            "selectedForeground": "mint"
+            "selectedForeground": "lightBlue"
         },
         "Link": {
-            "activeForeground": "mint",
-            "hoverForeground": "mint",
-            "pressedForeground": "mint",
+            "activeForeground": "lightBlue",
+            "hoverForeground": "lightBlue",
+            "pressedForeground": "lightBlue",
             "secondaryForeground": "base6",
             "visitedForeground": "almostPink"
         },
@@ -259,7 +262,7 @@
             "selectionBackground": "base9",
             "selectionForeground": "selectedForeground",
             "selectionInactiveBackground": "base80",
-            "selectionInactiveForeground": "darkBeige"
+            "selectionInactiveForeground": "lightBlue"
         },
         "MemoryIndicator": {
             "allocatedBackground": "base3",
@@ -301,8 +304,8 @@
         "Notification": {
             "background": "base80",
             "borderColor": "base1",
-            "errorBackground": "base1",
-            "errorBorderColor": "base1",
+            "errorBackground": "base80",
+            "errorBorderColor": "fadedRed",
             "foreground": "base8",
             "MoreButton": {
                 "background": "base3",
@@ -331,7 +334,7 @@
             "background": "base3",
             "borderColor": "base80",
             "currentOverloadBackground": "base3",
-            "currentParameterForeground": "darkBeige",
+            "currentParameterForeground": "lightBlue",
             "disabledForeground": "base4",
             "foreground": "base8",
             "infoForeground": "base6",
@@ -339,8 +342,8 @@
         },
         "PasswordField": {
             "background": "base3",
-            "capsLockIconColor": "darkBeige",
-            "caretForeground": "darkBeige",
+            "capsLockIconColor": "lightBlue",
+            "caretForeground": "lightBlue",
             "foreground": "base8",
             "inactiveForeground": "base4",
             "selectionBackground": "base4",
@@ -352,7 +355,7 @@
             "eapTagBackground": "base4",
             "lightSelectionBackground": "base80",
             "hoverBackground": "base80",
-            "tagForeground": "mint",
+            "tagForeground": "lightBlue",
             "tagBackground": "base4",
             "Button": {
                 "installBackground": "base1",
@@ -383,7 +386,7 @@
             "Advertiser": {
                 "background": "base2",
                 "borderColor": "base2",
-                "foreground": "mint"
+                "foreground": "lightBlue"
             },
             "borderColor": "base1",
             "inactiveBorderColor": "base2",
@@ -408,10 +411,10 @@
         },
         "ProgressBar": {
             "background": "base2",
-            "foreground": "mint",
-            "indeterminateEndColor": "darkBeige",
-            "indeterminateStartColor": "darkBeige",
-            "progressColor": "mint",
+            "foreground": "lightBlue",
+            "indeterminateEndColor": "lightBlue",
+            "indeterminateStartColor": "lightBlue",
+            "progressColor": "lightBlue",
             "selectionBackground": "base9",
             "trackColor": "base4"
         },
@@ -457,8 +460,8 @@
             }
         },
         "SearchMatch": {
-            "endBackground": "mint",
-            "startBackground": "mint"
+            "endBackground": "lightBlue",
+            "startBackground": "lightBlue"
         },
         "Separator": {
             "separatorColor": "base80"
@@ -468,8 +471,8 @@
         },
         "Slider": {
             "background": "base2",
-            "buttonBorderColor": "mint",
-            "buttonColor": "mint",
+            "buttonBorderColor": "lightBlue",
+            "buttonColor": "lightBlue",
             "foreground": "base8",
             "tickColor": "base3",
             "trackColor": "base3"
@@ -504,17 +507,17 @@
             "foreground": "base8",
             "hoverColor": "base80",
             "tabSelectionHeight": 2,
-            "underlineColor": "darkBeige"
+            "underlineColor": "lightBlue"
         },
         "Table": {
             "background": "base1",
-            "dropLineColor": "yellow",
-            "dropLineShortColor": "yellow",
+            "dropLineColor": "lightBlue",
+            "dropLineShortColor": "lightBlue",
             "focusCellBackground": "base1",
-            "focusCellForeground": "yellow",
+            "focusCellForeground": "lightBlue",
             "foreground": "base8",
             "gridColor": "base1",
-            "lightSelectionForeground": "yellow",
+            "lightSelectionForeground": "lightBlue",
             "lightSelectionInactiveForeground": "base8",
             "lightSelectionInactiveBackground": "base80",
             "selectionBackground": "base9",
@@ -535,7 +538,7 @@
         "textText": "base6",
         "TextArea": {
             "background": "base80",
-            "caretForeground": "yellow",
+            "caretForeground": "lightBlue",
             "foreground": "base8",
             "inactiveForeground": "base4",
             "selectionBackground": "base9",
@@ -543,7 +546,7 @@
         },
         "TextField": {
             "background": "base80",
-            "caretForeground": "yellow",
+            "caretForeground": "lightBlue",
             "foreground": "base8",
             "inactiveForeground": "base4",
             "selectionBackground": "base9",
@@ -551,7 +554,7 @@
         },
         "TextPane": {
             "background": "base80",
-            "caretForeground": "yellow",
+            "caretForeground": "lightBlue",
             "foreground": "base8",
             "inactiveForeground": "base4",
             "selectionBackground": "base9",
@@ -574,8 +577,8 @@
             "foreground": "base6",
             "offForeground": "base2",
             "offBackground": "base2",
-            "onBackground": "yellow",
-            "onForeground": "yellow"
+            "onBackground": "lightBlue",
+            "onForeground": "lightBlue"
         },
         "ToolBar": {
             "background": "base1",
@@ -624,9 +627,9 @@
             "hash": "base2",
             "modifiedItemForeground": "white",
             "rowHeight": 22,
-            "selectionBackground": "base9",
+            "selectionBackground": "base3",
             "selectionForeground": "white",
-            "selectionInactiveBackground": "base9"
+            "selectionInactiveBackground": "base80"
         },
         "UiDesigner": {
             "Panel": {
@@ -649,14 +652,14 @@
                 }
             },
             "GitLog": {
-                "localBranchIconColor": "mint",
+                "localBranchIconColor": "lightBlue",
                 "otherIconColor": "base6",
                 "remoteBranchIconColor": "base8",
                 "tagIconColor": "base6"
             },
             "HgLog": {
-                "branchIconColor": "mint",
-                "bookmarkIconColor": "mint",
+                "branchIconColor": "lightBlue",
+                "bookmarkIconColor": "lightBlue",
                 "closedBranchIconColor": "base4",
                 "localTagIconColor": "base6",
                 "mqTagIconColor": "base6",
@@ -670,7 +673,7 @@
                 }
             },
             "RefLabel": {
-                "foreground": "mint",
+                "foreground": "lightBlue",
                 "backgroundBase": "base4"
             }
         },
@@ -711,7 +714,7 @@
             "Checkbox.Border.Disabled.Dark": "base1",
             "Checkbox.Border.Selected.Dark": "base4",
             "Checkbox.Focus.Thin.Default.Dark": "base3",
-            "Checkbox.Focus.Thin.Selected.Dark": "mint",
+            "Checkbox.Focus.Thin.Selected.Dark": "lightBlue",
             "Checkbox.Focus.Wide.Dark": "base3",
             "Checkbox.Foreground.Disabled.Dark": "base6",
             "Checkbox.Foreground.Selected.Dark": "base8"
