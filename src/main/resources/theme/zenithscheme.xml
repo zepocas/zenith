@@ -3,7 +3,7 @@
 
     <option name="LINE_SPACING" value="1.2" />
     <option name="EDITOR_FONT_SIZE" value="14" />
-    <option name="EDITOR_FONT_NAME" value="JetBrains Mono" />
+    <option name="EDITOR_FONT_NAME" value="JetBrainsMono NF" />
     <option name="CONSOLE_FONT_NAME" value="JetBrainsMono NF" />
     <option name="CONSOLE_FONT_SIZE" value="12" />
     <colors>
@@ -25,7 +25,7 @@
         <option name="FILESTATUS_DELETED" value="f77669" />
         <option name="FILESTATUS_HIJACKED" value="ffcb6b" />
         <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="ef5350" />
-        <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="637777" />
+        <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="546666" />
         <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="f78c6c" />
         <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="f78c6c" />
         <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="f78c6c" />
@@ -1936,7 +1936,7 @@
         <option name="TEXT">
             <value>
                 <option name="FOREGROUND" value="e8deb8" />
-                <option name="BACKGROUND" value="191919" />
+                <option name="BACKGROUND" value="1C1C1C" />
             </value>
         </option>
         <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
