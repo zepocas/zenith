@@ -10,7 +10,7 @@
 
     <extensions defaultExtensionNs="com.intellij">
         <themeProvider id="com.github.zepocas.zenith" path="/theme/zenith.theme.json" />
-        <bundledColorScheme path="/theme/zenithcolorscheme.xml"/>
+        <bundledColorScheme id="zenith.color.scheme" path="/theme/zenithcolorscheme.xml"/>
     </extensions>
 
     <applicationListeners>
