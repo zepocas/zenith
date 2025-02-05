@@ -204,9 +204,9 @@
         },
         "EditorTabs": {
             "borderColor": "base2",
-            "underlineColor": "base3",
-            "inactiveUnderlineColor": "base3",
-            "underlinedTabBackground": "base3",
+            "underlineColor": "base9",
+            "inactiveUnderlineColor": "base9",
+            "underlinedTabBackground": "base9",
             "underlinedTabForeground": "selectedForeground"
         },
         "FileColor": {
@@ -404,7 +404,7 @@
             }
         },
         "PopupMenu": {
-            "background": "base2",
+            "background": "base3",
             "foreground": "base8",
             "translucentBackground": "base2",
             "selectionBackground": "base9"
@@ -627,9 +627,9 @@
             "hash": "base2",
             "modifiedItemForeground": "white",
             "rowHeight": 22,
-            "selectionBackground": "base3",
+            "selectionBackground": "base9",
             "selectionForeground": "white",
-            "selectionInactiveBackground": "base80"
+            "selectionInactiveBackground": "base3"
         },
         "UiDesigner": {
             "Panel": {
