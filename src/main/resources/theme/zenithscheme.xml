@@ -3,7 +3,7 @@
 
     <option name="LINE_SPACING" value="1.2" />
     <option name="EDITOR_FONT_SIZE" value="15" />
-    <option name="EDITOR_FONT_NAME" value="JetBrainsMono NF" />
+    <option name="EDITOR_FONT_NAME" value="JetBrainsMonoNL Nerd Font" />
     <option name="CONSOLE_FONT_NAME" value="JetBrainsMono NF" />
     <option name="CONSOLE_FONT_SIZE" value="12" />
     <colors>
@@ -19,18 +19,22 @@
         <option name="CARET_ROW_COLOR" value="282928" />
         <option name="CONSOLE_BACKGROUND_KEY" value="222222" />
         <option name="DELETED_LINES_COLOR" value="8d4c4c" />
-        <option name="DOCUMENTATION_COLOR" value="27272b" />
-        <option name="FILESTATUS_ADDED" value="c3e887" />
+        <option name="DOCUMENTATION_COLOR" value="2b2b2b" />
+        <option name="ERROR_HINT" value="2b2b2b" />
+        <option name="FILESTATUS_ADDED" value="b3e88e" />
         <option name="FILESTATUS_COPIED" value="addb67" />
         <option name="FILESTATUS_DELETED" value="f77669" />
         <option name="FILESTATUS_HIJACKED" value="ffcb6b" />
         <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="ef5350" />
-        <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="546666" />
+        <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="52646c" />
         <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="f78c6c" />
         <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="f78c6c" />
         <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="f78c6c" />
+        <option name="FILESTATUS_IDEA_SVN_FILESTATUS_EXTERNAL" value="72a038" />
+        <option name="FILESTATUS_IDEA_SVN_FILESTATUS_OBSTRUCTED" value="727238" />
+        <option name="FILESTATUS_IDEA_SVN_REPLACED" value="c3e88d" />
         <option name="FILESTATUS_MERGED" value="82aaff" />
-        <option name="FILESTATUS_MODIFIED" value="80cbc4" />
+        <option name="FILESTATUS_MODIFIED" value="7cccd0" />
         <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="80cbc4" />
         <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="80cbc4" />
         <option name="FILESTATUS_OBSOLETE" value="ffcb6b" />
@@ -42,13 +46,14 @@
         <option name="FILESTATUS_changelistConflict" value="f78c6c" />
         <option name="FILESTATUS_modifiedOutside" value="82aaff" />
         <option name="GUTTER_BACKGROUND" value="25292a" />
+        <option name="HINT_BORDER" value="2b2b2b" />
         <option name="INDENT_GUIDE" value="2e2f2d" />
         <option name="LINE_NUMBERS_COLOR" value="6f6e6b" />
-        <option name="LOOKUP_COLOR" value="37373d" />
+        <option name="LOOKUP_COLOR" value="2b2b2b" />
         <option name="MODIFIED_LINES_COLOR" value="587284" />
         <option name="SELECTED_INDENT_GUIDE" value="2e2f2d" />
         <option name="SELECTION_BACKGROUND" value="414b5a" />
-        <option name="TOOLTIP" value="191919" />
+        <option name="TOOLTIP" value="222222" />
         <option name="VCS_ANNOTATIONS_COLOR_1" value="c5574a" />
         <option name="VCS_ANNOTATIONS_COLOR_2" value="f4f1bb" />
         <option name="VCS_ANNOTATIONS_COLOR_3" value="9bc1bc" />
@@ -1830,7 +1835,7 @@
         </option>
         <option name="SEARCH_RESULT_ATTRIBUTES">
             <value>
-                <option name="BACKGROUND" value="4f4f82" />
+                <option name="BACKGROUND" value="2b2b2b" />
             </value>
         </option>
         <option name="SLIM_CLASS">
@@ -1936,7 +1941,7 @@
         <option name="TEXT">
             <value>
                 <option name="FOREGROUND" value="e8deb8" />
-                <option name="BACKGROUND" value="1C1C1C" />
+                <option name="BACKGROUND" value="1c1c1c" />
             </value>
         </option>
         <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
