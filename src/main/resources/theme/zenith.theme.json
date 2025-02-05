@@ -271,28 +271,28 @@
         "Menu": {
             "acceleratorForeground": "base6",
             "acceleratorSelectionForeground": "base8",
-            "background": "base2",
+            "background": "base80",
             "borderColor": "base80",
             "disabledBackground": "base3",
             "disabledForeground": "base4",
             "foreground": "base8",
-            "separatorColor": "base2",
+            "separatorColor": "base80",
             "selectionForeground": "selectedForeground"
         },
         "MenuBar": {
             "borderColor": "base80",
-            "disabledBackground": "base2",
+            "disabledBackground": "base80",
             "disabledForeground": "base4",
             "foreground": "base8",
-            "highlight": "base2",
+            "highlight": "base80",
             "selectionBackground": "base9",
             "selectionForeground": "selectedForeground",
             "shadow": "base1"
         },
         "MenuItem": {
             "acceleratorForeground": "base6",
-            "background": "base2",
-            "disabledBackground": "base2",
+            "background": "base80",
+            "disabledBackground": "base80",
             "disabledForeground": "base4",
             "foreground": "base8",
             "selectionBackground": "base9",
@@ -404,7 +404,7 @@
             }
         },
         "PopupMenu": {
-            "background": "base3",
+            "background": "base80",
             "foreground": "base8",
             "translucentBackground": "base2",
             "selectionBackground": "base9"
