@@ -165,11 +165,11 @@
                 "evaluatingExpressionForeground": "base6",
                 "exceptionForeground": "blue",
                 "modifyingValueForeground": "yellow",
-                "valueForeground": "lightPurple"
+                "valueForeground": "lightBlue"
             }
         },
         "DebuggerTabs": {
-            "underlinedTabBackground": "base4"
+            "underlinedTabBackground": "base6"
         },
         "DebuggerPopup": {
             "borderColor": "base4"
