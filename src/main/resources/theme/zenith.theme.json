@@ -169,7 +169,7 @@
             }
         },
         "DebuggerTabs": {
-            "underlinedTabBackground": "base6"
+            "underlinedTabBackground": "base3"
         },
         "DebuggerPopup": {
             "borderColor": "base4"
@@ -181,7 +181,8 @@
             "inactiveUnderlineColor": "lightBlue",
             "underlineColor": "lightBlue",
             "underlinedTabBackground": "base2",
-            "underlineHeight": 2
+            "underlineHeight": 2,
+            "underlinedTabForeground": "selectedForeground"
         },
         "DragAndDrop": {
             "areaBackground": "base2",
@@ -204,8 +205,8 @@
         },
         "EditorTabs": {
             "borderColor": "base2",
-            "underlineColor": "base9",
-            "inactiveUnderlineColor": "base9",
+            "underlineColor": "lightBlue",
+            "inactiveUnderlineColor": "lightBlue",
             "underlinedTabBackground": "base9",
             "underlinedTabForeground": "selectedForeground"
         },
@@ -271,8 +272,8 @@
         "Menu": {
             "acceleratorForeground": "base6",
             "acceleratorSelectionForeground": "base8",
-            "background": "base80",
-            "borderColor": "base80",
+            "background": "base2",
+            "borderColor": "base2",
             "disabledBackground": "base3",
             "disabledForeground": "base4",
             "foreground": "base8",
@@ -291,8 +292,8 @@
         },
         "MenuItem": {
             "acceleratorForeground": "base6",
-            "background": "base80",
-            "disabledBackground": "base80",
+            "background": "base2",
+            "disabledBackground": "base2",
             "disabledForeground": "base4",
             "foreground": "base8",
             "selectionBackground": "base9",
@@ -404,7 +405,7 @@
             }
         },
         "PopupMenu": {
-            "background": "base80",
+            "background": "base2",
             "foreground": "base8",
             "translucentBackground": "base2",
             "selectionBackground": "base9"
