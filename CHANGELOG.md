@@ -2,7 +2,6 @@
 
 # Zenith Changelog
 
-## [Unreleased]
 ### Added
-- Preparing for the first release, still need to decide on the accent color.
-- Initial scaffold created from [IntelliJ Platform Plugin Template](https://github.com/JetBrains/intellij-platform-plugin-template)
+- Fixed text foreground color in ```Run Anything``` popup menu, even though its configurability is more limited than other normal.
+

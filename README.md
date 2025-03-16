@@ -24,6 +24,9 @@ Based on Subtheme's Monokai Pro, a bit more streamlined with a code color scheme
 - Settings: Turn off `Show tree indent guides` and `Use project colors in main toolbar`, turn on `Use smaller indents in trees`
 - You can use `File Status Color > Up to date` to change the foreground text color the the Project tool window.
 - If you are on a low resolution screen, turn off gutter icons in the `Editor > General > Gutter Icons` settings.
+
+### Please send suggestions :)
+- I'm thinking of adding some more editor color schemes, after tailoring the colors to my liking.
 <!-- Plugin description end -->
 
 ## Installation

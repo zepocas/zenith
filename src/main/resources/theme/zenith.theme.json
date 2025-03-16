@@ -260,7 +260,7 @@
         "List": {
             "background": "base1",
             "foreground": "base8",
-            "selectionBackground": "base9",
+            "selectionBackground": "base3",
             "selectionForeground": "selectedForeground",
             "selectionInactiveBackground": "base80",
             "selectionInactiveForeground": "lightBlue"
@@ -329,7 +329,7 @@
         },
         "Panel": {
             "background": "base2",
-            "foreground": "base5"
+            "foreground": "base6"
         },
         "ParameterInfo": {
             "background": "base3",
@@ -384,6 +384,7 @@
             }
         },
         "Popup": {
+            "background": "base2",
             "Advertiser": {
                 "background": "base2",
                 "borderColor": "base2",
